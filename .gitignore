@@ -1,14 +1,20 @@
+# Compiled class files
 target/
-!.mvn/wrapper/maven-wrapper.jar
+*.class
 
-### IntelliJ ###
-.idea
-*.iml
-out/
-
-### Logs ###
+# Logs
 *.log
 
-### OS ###
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Maven Wrapper downloaded files (необязательно)
+.mvn/wrapper/maven-wrapper.jar
